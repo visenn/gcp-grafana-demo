@@ -1,0 +1,5 @@
+project = "cft-demo-vis"
+region  = "europe-west1"
+zone    = "europe-west1-b"
+subnet  = "vis-eu1"
+network = "vis"
