@@ -11,3 +11,7 @@ output "grafana_lb_ip" {
   value       = var.enable_lb ? google_compute_global_forwarding_rule.grafana_forwarding_rule[0].ip_address : "Load Balancer is disabled"
   description = "External IP address for Grafana Load Balancer"
 }
+
+output "project_id" {
+  value = google_project.project.project_id
+}
